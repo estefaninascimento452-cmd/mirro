@@ -1,0 +1,69 @@
+body {
+color: #333333;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h1 {
+background-image: url(../img/sobre-background.jpg);
+}
+h2 {
+border-bottom: 2px solid #333333;
+}
+
+figure {
+background-color: #F2EDED;
+border: 1px solid #ccc;
+text-align: center;
+}
+figcaption {
+font-style: italic;
+}
+
+h1 {
+padding: 10px;
+}
+h2 {
+margin-top: 30px;
+}
+p {
+padding: 0 45px;
+text-indent: 15px;
+}
+figure {
+padding: 15px;
+margin: 30px;
+}
+figcaption {
+margin-top: 10px;
+}
+
+/* Inicio = links*/
+header {
+  background: #6c6c6c;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background: #444;
+  border-radius: 8px;
+}
